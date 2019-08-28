@@ -46,7 +46,7 @@ cd GSCNN
 
 Currently, the code supports Python 3
 * numpy 
-* PyTorch (<= 1.0.0 )
+* PyTorch (>=1.1.0)
 * scipy 
 * scikit-imagea
 * tensorboardX
