@@ -136,8 +136,9 @@ def main():
 
     if args.evaluate:
         # Early evaluation for benchmarking
+	default_eval_epoch = 1
         validate(val_loader, net, criterion_val,
-                 optim, epoch, writer)
+                 optim, default_eval_epoch, writer)
         evaluate(val_loader, net)
         return
 

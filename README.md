@@ -47,11 +47,14 @@ cd GSCNN
 Currently, the code supports Python 3
 * numpy 
 * PyTorch (>=1.1.0)
+* torchvision
 * scipy 
-* scikit-imagea
+* scikit-image
 * tensorboardX
 * tqdm
 * torch-encoding
+* opencv
+* PyYAML
 
 #### Download pretrained models
 
