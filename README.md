@@ -48,7 +48,7 @@ Currently, the code supports Python 3
 * numpy 
 * PyTorch (>=1.1.0)
 * scipy 
-* scikit-imagea
+* scikit-image
 * tensorboardX
 * tqdm
 * torch-encoding
