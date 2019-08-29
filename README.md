@@ -52,6 +52,7 @@ Currently, the code supports Python 3
 * tensorboardX
 * tqdm
 * torch-encoding
+* opencv
 
 #### Download pretrained models
 
