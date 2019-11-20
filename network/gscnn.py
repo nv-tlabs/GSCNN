@@ -271,8 +271,6 @@ class GSCNN(nn.Module):
         m6 = self.mod6(m5)
         m7 = self.mod7(m6) 
 
-        s1 = F.interpolate(self.dsn1(m1), x_size[2:],
-                            mode='bilinear', align_corners=True)
         s3 = F.interpolate(self.dsn3(m3), x_size[2:],
                             mode='bilinear', align_corners=True)
         s4 = F.interpolate(self.dsn4(m4), x_size[2:],
