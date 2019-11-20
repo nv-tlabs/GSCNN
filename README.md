@@ -69,6 +69,10 @@ Download (if needed) the inferred images from the [Google Drive Folder](https://
 python train.py --evaluate --snapshot checkpoints/best_cityscapes_checkpoint.pth
 ```
 
+#### Training
+
+A note on training- we train on 8 NVIDIA GPUs, and as such, training will be an issue with WiderResNet38 if you try to train on a single GPU.
+
 If you use this code, please cite:
 
 ```
