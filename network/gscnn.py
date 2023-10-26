@@ -30,10 +30,8 @@ Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses
 import torch
 import torch.nn.functional as F
 from torch import nn
-from network import SEresnext
 from network import Resnet
 from network.wider_resnet import wider_resnet38_a2
-from config import cfg
 from network.mynn import initialize_weights, Norm2d
 from torch.autograd import Variable
 
