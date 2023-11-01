@@ -10,7 +10,7 @@ ICCV 2019
 
 ![GSCNN DEMO](docs/resources/gscnn.gif)
 
-Based on based on https://github.com/NVIDIA/semantic-segmentation.
+Based on https://github.com/NVIDIA/semantic-segmentation.
 
 ## License
 ```
